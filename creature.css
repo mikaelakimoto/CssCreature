@@ -1,0 +1,73 @@
+.wrapper{
+    margin: 20px;
+}
+
+.face{
+    width: 380px;
+    height: 280px;
+    border: solid 2px black;
+    background-color: brown;
+    border-radius: 120px;
+}
+
+.ear{
+width: 70px;
+height: 70px;
+border: solid 2px black;
+background-color: brown;
+border-radius: 120px;
+position: relative;
+top: 100px;
+left: 80px;
+
+}
+
+.right{
+    top:-100px;
+    right: 170px;
+}
+
+.left{
+    top: -30px;
+    left: 230px;
+}
+
+.snout{
+    width:200px;
+    height: 120px;
+    border: 2px solid black;
+    z-index: 2;
+    background-color: brown;
+    border-radius: 50px;
+    position: relative;
+    top:5px;
+    left: 85px;
+}
+
+.nose{
+    width: 10px;
+    border: 10px solid black;
+    border-radius: 50px;
+    position: relative;
+    top: 80px;
+    left: 80px;
+}
+
+.eye{
+ width: 10px;
+ height:10px;
+ border: 10px solid black;
+ border-radius: 50px;
+ z-index: 10;
+position: relative;
+}
+
+.righteye{
+    top:-75px;
+    right: -80px;
+}
+
+.lefteye{
+    top: -50px;
+    left: 260px;
+}
